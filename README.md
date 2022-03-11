@@ -3,4 +3,4 @@ clothing store management with both client and admin login system (using file ha
 
 Credentials:
 Manager ID : vineshjuriasinghani@outlook.com
-Password : Stream1
+Password : stream1
