@@ -9,32 +9,39 @@ This is a **console-based Clothing Store Management System** written in **C**, u
 
 ### User Roles
 
-#### Customer (Client)
-- Register a new account
-- Log in with credentials
-- View available clothing items
-- Purchase products
+### Customer Portal
+- Register a new customer account (data saved in `DATA.txt`)
+- Log in with an existing email and password
+- Browse products by categories (T-Shirts, Shirts, Paints, Shoes)
+- Purchase items and receive a generated bill
+- Passwords are stored encrypted (encryption method can be implemented or customized)
 
-#### Manager (Admin)
-- Log in using pre-defined credentials
-- Add new products to inventory
-- View all registered customers
-- Manage stock and pricing (basic)
-
-
-
-## File Handling
-- `customer.txt` — stores customer data
-- `products.txt` — maintains product inventory
-- Purchase history (optional/extendable)
-
-
+### Admin (Manager) Portal
+- Log in using predefined credentials (stored in `DATA1.txt`)
+- Add, view, update, or delete stock by category
+- Track total sales and total profit
+- Products managed through category files like `t-shirts.txt`, `shirts.txt`, etc.
 
 ## Tech Stack
 - **Language**: C (C99/C11)
 - **Storage**: File I/O (text files)
 - **Compiler**: GCC / Turbo C / Dev C/C++
 
+## File Structure
+
+```text
+ClothingStore/
+│
+├── main.c              // Complete source code
+├── DATA.txt            // Stores customer login and contact info
+├── DATA1.txt           // Stores admin credentials
+├── sale.txt            // Temporary file for storing purchases during a session
+├── manager.txt         // Stores all purchases for profit/sales calculation
+├── t-shirts.txt        // Inventory for T-Shirts
+├── shirts.txt          // Inventory for Shirts
+├── paints.txt          // Inventory for Paints
+├── shoes.txt           // Inventory for Shoes
+└── README.md           // Project documentation
 
 
 ## 🔐 Manager Login Credentials
