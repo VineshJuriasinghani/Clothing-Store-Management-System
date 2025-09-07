@@ -1,6 +1,6 @@
 
 
-# Clothing Store Management System (C Language)
+# SmartClothingStore (C Language)
 
 This is a **console-based Clothing Store Management System** written in **C**, using **file handling** for data storage. It simulates a small retail outlet with two types of users: **customers (clients)** and **managers (admins)**. The system allows new customers to register, browse products, and make purchases, while managers can add and manage inventory and view customer information.
 
