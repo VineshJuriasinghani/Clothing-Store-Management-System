@@ -27,8 +27,11 @@ This is a **console-based Clothing Store Management System** written in **C**, u
 - **Storage**: File I/O (text files)
 - **Compiler**: GCC / Turbo C / Dev C/C++
 
-## File Structure
+## Manager Login Credentials
+Manager ID : vineshjuriasinghani@outlook.com
+Password : stream1 (stored securely using encryption)
 
+## File Structure
 ```text
 ClothingStore/
 │
@@ -44,6 +47,4 @@ ClothingStore/
 └── README.md           // Project documentation
 
 
-## 🔐 Manager Login Credentials
-Manager ID : vineshjuriasinghani@outlook.com
-Password : stream1 (stored securely using encryption)
+
